@@ -6,12 +6,6 @@ html {
 	-moz-transform-origin: top center;
 }
 
-@supports (-moz-appearance:none) {
-		br {
-			visibility: hidden;
-		}
-}
-
 body {
 	color: #2b2f3b;
 	font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
