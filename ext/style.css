@@ -1,7 +1,15 @@
 html {
-    zoom: 0.9; 
-    -moz-transform: scale(0.9); 
-    -moz-transform-origin: 0 0;
+    zoom: 0.9;
+	-ms-zoom: 0.9;
+	-webkit-zoom: 0.9;
+	-moz-transform:  scale(0.9);
+	-moz-transform-origin: top center;
+}
+
+@supports (-moz-appearance:none) {
+		br {
+			visibility: hidden;
+		}
 }
 
 body {
